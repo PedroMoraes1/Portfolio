@@ -17,6 +17,10 @@ span{
     color: #4CAF4F;
 }
 
+button{
+    cursor: pointer;
+}
+
 /* ******** Início Header ******** */
 
 header{
@@ -134,29 +138,31 @@ h1{
 
 .section3{
     background-color: #fff;
+    padding-bottom: 178px;
 }
 
 .cards-container {
     display: flex;
     gap: 127.5px;
     justify-content: center;
+    padding-top: 8px;
   }
 
 .card {
-  background: #fff;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    text-align: center;
+    width: 297px;
+    height: 258px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* .card:hover {
+.card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-} */
+}
 
 .icon {
     display: flex;
@@ -167,18 +173,265 @@ h1{
 .icon img {
   width: 50px;
   height: 50px;
+  padding-top: 24px;
 }
 
-h3 {
+.primeiro-h3 {
   font-size: 20px;
   color: #333;
   margin-bottom: 10px;
 }
 
-p {
+.terceiro {
   font-size: 14px;
   color: #666;
   line-height: 1.6;
 }
 
 /* ******** Fim da 3ª section ******** */
+
+/* ******** 4ª section ******** */
+
+.aside-2{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+
+.image2{
+    padding: 52px 0 100px 0px;
+}
+
+.segundo-h2{
+    padding: 82px 0 0 0;
+    font-size: 36px;
+}
+
+.quarto{
+    padding: 16px 0 0 0px;
+    line-height: 20px;
+    font-size: 14px;    
+}
+
+.learn{
+    background-color: #4CAF4F;
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+/* ******** Fim da 4ª section ******** */
+
+/* ******** 5ª section ******** */
+
+.aside-3{
+    display: flex;
+    justify-content: center;
+    gap: 204px;
+}
+
+.terceiro-h2{
+    padding: 84px 0 0 0;
+    font-size: 36px;
+}
+
+.quinto{
+    padding: 8px 0 84px 0;
+    color: #18191F;
+}
+
+.imagem3{
+    padding: 3px 0;
+    width: 48px;
+    height: 48px;
+    padding-top: 64px;
+}
+
+.segundo-h3{
+    font-size: 28px;
+    padding: 0 82px 0 0;
+}
+
+.terceiro-h3{
+    font-size: 28px;
+    padding: 0 104px 0 0 ;
+}
+
+.quarto-h3{
+    font-size: 28px;
+}
+
+.sexto{
+    color: #717171;
+}
+
+.cards{
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+    height: 50px;
+
+}
+
+.informacoes{
+    display: block;
+    padding: 0 0 0 16px;
+    height: 50px;
+    padding-top: 64px;
+}
+
+.mini-card{
+    display: flex;
+    width: 540px;
+    height: 260px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 50px;
+}
+
+/* ******** Fim da 5ª section ******** */
+
+/* ******** 6ª section ******** */
+
+.quarto-h2{
+    padding: 110.7px 0 0 0;
+    font-size: 36px;
+}
+
+.image4{
+    padding: 48px 0;
+}
+
+/* ******** Fim da 6ª section ******** */
+
+/* ******** 7ª section ******** */
+
+.aside-4{
+    display: flex;
+    justify-content: center;
+    gap: 78px;
+}
+
+.image5{
+    padding: 32px 0 16px 0;
+}
+
+.setimo{
+    color: #717171;
+    line-height: 24px;
+    padding: 33px 0 16px 0;
+
+}
+
+.quinto-h3{
+    color: #4CAF4F;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.oitavo{
+    color: #89939E;
+    padding-bottom: 36px;
+}
+
+.separacao{
+    display: flex;
+    gap: 32px;
+}
+
+.icones{
+    display: flex;
+    gap: 41px;
+}
+
+.botao{
+    padding: 8px;
+    font-size: 20px;
+    color: #4CAF4F;
+    background-color: transparent;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+/* ******** Fim da 7ª section ******** */
+
+/* ******** 8ª section ******** */
+.section4{
+    background-color: #fff;
+    padding-top: 48px;
+}
+
+.quinto-h2{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 8px;
+}
+
+.nono{
+    text-align: center;
+    color: #717171;
+    line-height: 24px;    
+}
+
+.cards-container-1 {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 16px 0 95px 0;
+    flex-wrap: wrap;
+  }
+  
+  .card-1, .card-2, .card-3 {
+    background: none;
+    overflow: visible;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    max-width: 368px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-1:hover, .card-2:hover, .card-3:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image-1, .card-image-2, .card-image-3 {
+    height: 286px; /* Altura da imagem */
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+  }
+  
+  .card-content-1, .card-content-2, .card-content-3 {
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px 8px;
+    box-shadow:  0px 0px 7px 3px rgba(0, 0, 0, 0.1);
+    width: 78%; /* O conteúdo agora é menor que o card */
+    margin: -75px auto 0 auto; /* Centraliza o conteúdo e ajusta a posição */
+  }
+  
+  .card-content-1 h3, .card-content-2 h3, .card-content-3 h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+    color: #717171;
+    text-align: center;
+  }
+  
+  .botao-1 {
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF4F;
+    background-color: transparent;
+    margin-top: 12px;
+    margin-left: 85px;
+
+  }
+  
+
+/* ******** Fim da 8ª section ******** */
