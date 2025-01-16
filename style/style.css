@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';    
+}
+
+span{
+    color: #4CAF4F;
+}
+
+/* ******** Início Header ******** */
+
+header{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    padding: 30px 0px 30px 105px;
+    align-items: center;
+}
+
+.service{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.action{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    padding: 0px 120px 0px 0px;
+}
+
+.login{
+    padding: 10px 20px;
+    color: #4CAF4F;
+    background-color: transparent;
+}
+
+.sign-up{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4CAF4F;
+    border-radius: 6px;
+}
+
+/* ******** Fim Header ******** */
+
+/* ******** 1ª section ******** */
+
+main{
+    text-align: center;
+    background-color: #F5F7FA;
+}
+
+main div {
+    text-align: start;
+}
+
+aside{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    gap: 103px;
+}
+
+h1{
+    font-size: 64px;
+    padding: 161.5px 0 0 0;
+}
+
+.primeiro{
+    padding: 16px 0 0 0px;
+}
+
+.registro{
+    background-color: #4CAF4F;
+    color: #fff;
+    padding: 14px 32px;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+.image1{
+    padding: 96px 0px;
+}
+
+.pontos{
+    display: flex;
+
+}
+/* ******** Fim da 1ª section ******** */
+
+/* ********  2ª section ******** */
+
+.section2{
+    background-color: #fff;
+}
+
+.primeiro-h2{
+    text-align: center;
+    padding: 40px 0 8px 0;
+    font-size: 36px;
+}
+
+.segundo{
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.marcas{
+    display: flex;
+    gap: 136px;
+    justify-content: center;
+}
+
+/* ******** Fim da 2ª section ******** */
+
+/* ******** 3ª section ******** */
+
+.section3{
+    background-color: #fff;
+}
+
+.cards-container {
+    display: flex;
+    gap: 127.5px;
+    justify-content: center;
+  }
+
+.card {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+} */
+
+.icon {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ******** Fim da 3ª section ******** */
