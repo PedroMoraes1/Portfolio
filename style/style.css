@@ -391,6 +391,7 @@ h1{
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     overflow: hidden;
     max-width: 368px;
+    height: 390px;
     text-align: center;
     transition: transform 0.3s ease;
   }
@@ -408,7 +409,7 @@ h1{
   
   .card-content-1, .card-content-2, .card-content-3 {
     padding: 15px;
-    background: #ffffff;
+    background: #F5F7FA;
     border-radius: 8px 8px;
     box-shadow:  0px 0px 7px 3px rgba(0, 0, 0, 0.1);
     width: 78%; /* O conteúdo agora é menor que o card */
@@ -435,3 +436,172 @@ h1{
   
 
 /* ******** Fim da 8ª section ******** */
+
+/* ******** 9ª section ******** */
+
+.sexto-h2{
+    font-size: 64px;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.botao-2 {
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: #fff;
+    border: 2px solid #4CAF4F;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 0 32px 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao-2 span {
+    color: inherit; /* Garante que o texto use a cor branca herdada */
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.botao-2:hover {
+    background-color: #fff;
+    color: #4CAF4F;
+}
+
+.botao-2:hover span:first-child {
+    transform: translateX(10px);
+}
+
+.botao-2:hover .arrow {
+    transform: translateX(20px);
+}
+
+
+/* ******** Fim da 9ª section ******** */
+
+/* ******** Footer ******** */
+
+footer {
+    background-color: #263238   ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.footer-logo {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+footer p {
+    margin: 0;
+    color: #F5F7FA;
+    font-size: 14px;
+    padding-bottom: 40px;
+    line-height: 20px;
+}
+
+.icon-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #3B464C; 
+    width: 40px; 
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.sociais {
+    width: 18px;
+    height: 18px;
+    transition: all 0.3s ease;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 77.33px;
+}
+
+.icon-container:hover {
+    transform: translateY(-10px);
+    background-color: #fff;
+}
+
+.icon-container:hover .sociais {
+    filter: invert(1);
+}
+/*******************************************/
+
+.parte2{
+    display: flex;
+    gap: 90px;
+    padding-top: 64px;
+}
+
+footer h4 {
+  margin-bottom: 24px;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.footer-links {
+  list-style: none;
+  font-size: 14px;
+}
+
+.footer-link {
+  color: #F5F7FA;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 12px;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #4CAF4F;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+}
+
+input::placeholder{
+    color: #D9DBE1;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius:  5px 0  0 5px ;
+    background-color: #515B60;
+    color: #fff;
+}
+
+.newsletter-button {
+  padding: 7px 9px;;
+  border: none;
+  background-color: #515B60;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+  background-color: #4CAF4F;
+}
+
+/* ******** Fim do Footer ******** */
