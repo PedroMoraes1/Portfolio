@@ -1,72 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter';    
+    font-family: 'Inter';
 }
 
-span{
+span {
     color: #4CAF4F;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
 /* ******** Início Header ******** */
 
-header{
+header {
     display: flex;
     background-color: #fff;
-    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
-.logo{
+.logo {
     display: flex;
     padding: 30px 0px 30px 105px;
     align-items: center;
 }
 
-.service{
+.service {
     display: flex;
     gap: 50px;
     align-items: center;
     padding: 30px 0px;
 }
 
-.action{
+.action {
     display: flex;
     gap: 14px;
     align-items: center;
-    padding: 0px 120px 0px 0px;
 }
 
-.login{
+.login {
     padding: 10px 20px;
     color: #4CAF4F;
     background-color: transparent;
+    border: 1px solid #4CAF4F;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-.sign-up{
+.sign-up {
     padding: 10px 20px;
     color: #fff;
     background-color: #4CAF4F;
     border-radius: 6px;
+    border: none;
+    cursor: pointer;
 }
+
+.nav-menu {
+    display: flex;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+}
+
+.menu-toggle span {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
 
 /* ******** Fim Header ******** */
 
 /* ******** 1ª section ******** */
 
-main{
+main {
     text-align: center;
     background-color: #F5F7FA;
 }
@@ -75,23 +102,23 @@ main div {
     text-align: start;
 }
 
-aside{
+aside {
     background-color: #F5F7FA;
     display: flex;
     justify-content: center;
     gap: 103px;
 }
 
-h1{
+h1 {
     font-size: 64px;
     padding: 161.5px 0 0 0;
 }
 
-.primeiro{
+.primeiro {
     padding: 16px 0 0 0px;
 }
 
-.registro{
+.registro {
     background-color: #4CAF4F;
     color: #fff;
     padding: 14px 32px;
@@ -99,34 +126,35 @@ h1{
     margin-top: 32px;
 }
 
-.image1{
+.image1 {
     padding: 96px 0px;
 }
 
-.pontos{
+.pontos {
     display: flex;
 
 }
+
 /* ******** Fim da 1ª section ******** */
 
 /* ********  2ª section ******** */
 
-.section2{
+.section2 {
     background-color: #fff;
 }
 
-.primeiro-h2{
+.primeiro-h2 {
     text-align: center;
     padding: 40px 0 8px 0;
     font-size: 36px;
 }
 
-.segundo{
+.segundo {
     text-align: center;
     padding-bottom: 16px;
 }
 
-.marcas{
+.marcas {
     display: flex;
     gap: 136px;
     justify-content: center;
@@ -136,9 +164,9 @@ h1{
 
 /* ******** 3ª section ******** */
 
-.section3{
+.section3 {
     background-color: #fff;
-    padding-bottom: 90px    ;
+    padding-bottom: 90px;
 }
 
 .cards-container {
@@ -146,7 +174,7 @@ h1{
     gap: 127.5px;
     justify-content: center;
     padding-top: 8px;
-  }
+}
 
 .card {
     background: #fff;
@@ -160,8 +188,8 @@ h1{
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -171,50 +199,50 @@ h1{
 }
 
 .icon img {
-  width: 50px;
-  height: 50px;
-  padding-top: 24px;
+    width: 50px;
+    height: 50px;
+    padding-top: 24px;
 }
 
 .primeiro-h3 {
-  font-size: 20px;
-  color: #333;
-  margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .terceiro {
-  font-size: 14px;
-  color: #666;
-  line-height: 1.6;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
 }
 
 /* ******** Fim da 3ª section ******** */
 
 /* ******** 4ª section ******** */
 
-.aside-2{
+.aside-2 {
     background-color: #fff;
     display: flex;
     justify-content: center;
     gap: 49px;
 }
 
-.image2{
+.image2 {
     padding: 52px 0 100px 0px;
 }
 
-.segundo-h2{
+.segundo-h2 {
     padding: 82px 0 0 0;
     font-size: 36px;
 }
 
-.quarto{
+.quarto {
     padding: 16px 0 0 0px;
     line-height: 20px;
-    font-size: 14px;    
+    font-size: 14px;
 }
 
-.learn{
+.learn {
     background-color: #4CAF4F;
     color: #fff;
     padding: 14px 32px;
@@ -226,48 +254,48 @@ h1{
 
 /* ******** 5ª section ******** */
 
-.aside-3{
+.aside-3 {
     display: flex;
     justify-content: center;
     gap: 204px;
 }
 
-.terceiro-h2{
+.terceiro-h2 {
     padding: 84px 0 0 0;
     font-size: 36px;
 }
 
-.quinto{
+.quinto {
     padding: 8px 0 84px 0;
     color: #18191F;
 }
 
-.imagem3{
+.imagem3 {
     padding: 3px 0;
     width: 48px;
     height: 48px;
     padding-top: 64px;
 }
 
-.segundo-h3{
+.segundo-h3 {
     font-size: 28px;
     padding: 0 82px 0 0;
 }
 
-.terceiro-h3{
+.terceiro-h3 {
     font-size: 28px;
-    padding: 0 104px 0 0 ;
+    padding: 0 104px 0 0;
 }
 
-.quarto-h3{
+.quarto-h3 {
     font-size: 28px;
 }
 
-.sexto{
+.sexto {
     color: #717171;
 }
 
-.cards{
+.cards {
     display: flex;
     border-radius: 8px;
     text-align: center;
@@ -275,14 +303,14 @@ h1{
 
 }
 
-.informacoes{
+.informacoes {
     display: block;
     padding: 0 0 0 16px;
     height: 50px;
     padding-top: 64px;
 }
 
-.mini-card{
+.mini-card {
     display: flex;
     width: 540px;
     height: 260px;
@@ -295,12 +323,12 @@ h1{
 
 /* ******** 6ª section ******** */
 
-.quarto-h2{
+.quarto-h2 {
     padding: 110.7px 0 0 0;
     font-size: 36px;
 }
 
-.image4{
+.image4 {
     padding: 48px 0;
 }
 
@@ -308,45 +336,45 @@ h1{
 
 /* ******** 7ª section ******** */
 
-.aside-4{
+.aside-4 {
     display: flex;
     justify-content: center;
     gap: 78px;
 }
 
-.image5{
+.image5 {
     padding: 32px 0 16px 0;
 }
 
-.setimo{
+.setimo {
     color: #717171;
     line-height: 24px;
     padding: 33px 0 16px 0;
 
 }
 
-.quinto-h3{
+.quinto-h3 {
     color: #4CAF4F;
     font-size: 20px;
     padding-bottom: 8px;
 }
 
-.oitavo{
+.oitavo {
     color: #89939E;
     padding-bottom: 36px;
 }
 
-.separacao{
+.separacao {
     display: flex;
     gap: 32px;
 }
 
-.icones{
+.icones {
     display: flex;
     gap: 41px;
 }
 
-.botao{
+.botao {
     padding: 8px;
     font-size: 20px;
     color: #4CAF4F;
@@ -358,21 +386,21 @@ h1{
 /* ******** Fim da 7ª section ******** */
 
 /* ******** 8ª section ******** */
-.section4{
+.section4 {
     background-color: #fff;
     padding-top: 48px;
 }
 
-.quinto-h2{
+.quinto-h2 {
     text-align: center;
     font-size: 36px;
     padding-bottom: 8px;
 }
 
-.nono{
+.nono {
     text-align: center;
     color: #717171;
-    line-height: 24px;    
+    line-height: 24px;
 }
 
 .cards-container-1 {
@@ -381,9 +409,11 @@ h1{
     justify-content: center;
     padding: 16px 0 95px 0;
     flex-wrap: wrap;
-  }
-  
-  .card-1, .card-2, .card-3 {
+}
+
+.card-1,
+.card-2,
+.card-3 {
     background: none;
     overflow: visible;
     border: none;
@@ -394,36 +424,48 @@ h1{
     height: 390px;
     text-align: center;
     transition: transform 0.3s ease;
-  }
-  
-  .card-1:hover, .card-2:hover, .card-3:hover {
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
     transform: translateY(-5px);
-  }
-  
-  .card-image-1, .card-image-2, .card-image-3 {
-    height: 286px; /* Altura da imagem */
+}
+
+.card-image-1,
+.card-image-2,
+.card-image-3 {
+    height: 286px;
+    /* Altura da imagem */
     background-size: cover;
     background-position: center;
-    width: 100%; /* Faz a imagem ocupar toda a largura do card */
-  }
-  
-  .card-content-1, .card-content-2, .card-content-3 {
+    width: 100%;
+    /* Faz a imagem ocupar toda a largura do card */
+}
+
+.card-content-1,
+.card-content-2,
+.card-content-3 {
     padding: 15px;
     background: #F5F7FA;
     border-radius: 8px 8px;
-    box-shadow:  0px 0px 7px 3px rgba(0, 0, 0, 0.1);
-    width: 78%; /* O conteúdo agora é menor que o card */
-    margin: -75px auto 0 auto; /* Centraliza o conteúdo e ajusta a posição */
-  }
-  
-  .card-content-1 h3, .card-content-2 h3, .card-content-3 h3 {
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.1);
+    width: 78%;
+    /* O conteúdo agora é menor que o card */
+    margin: -75px auto 0 auto;
+    /* Centraliza o conteúdo e ajusta a posição */
+}
+
+.card-content-1 h3,
+.card-content-2 h3,
+.card-content-3 h3 {
     font-size: 20px;
     margin: 0 0 15px;
     color: #717171;
     text-align: center;
-  }
-  
-  .botao-1 {
+}
+
+.botao-1 {
     padding: 8px;
     font-size: 20px;
     font-weight: bold;
@@ -432,14 +474,14 @@ h1{
     margin-top: 12px;
     margin-left: 85px;
 
-  }
-  
+}
+
 
 /* ******** Fim da 8ª section ******** */
 
 /* ******** 9ª section ******** */
 
-.sexto-h2{
+.sexto-h2 {
     font-size: 64px;
     text-align: center;
     padding: 32px 0;
@@ -464,7 +506,8 @@ h1{
 }
 
 .botao-2 span {
-    color: inherit; /* Garante que o texto use a cor branca herdada */
+    color: inherit;
+    /* Garante que o texto use a cor branca herdada */
     display: inline-block;
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -488,7 +531,7 @@ h1{
 /* ******** Footer ******** */
 
 footer {
-    background-color: #263238   ;
+    background-color: #263238;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -496,8 +539,8 @@ footer {
 }
 
 .footer-logo {
-  padding-top: 64px;
-  padding-bottom: 40px;
+    padding-top: 64px;
+    padding-bottom: 40px;
 }
 
 footer p {
@@ -513,8 +556,8 @@ footer p {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #3B464C; 
-    width: 40px; 
+    background-color: #3B464C;
+    width: 40px;
     height: 40px;
     transition: all 0.3s ease;
 }
@@ -539,44 +582,45 @@ footer p {
 .icon-container:hover .sociais {
     filter: invert(1);
 }
+
 /*******************************************/
 
-.parte2{
+.parte2 {
     display: flex;
     gap: 90px;
     padding-top: 64px;
 }
 
 footer h4 {
-  margin-bottom: 24px;
-  font-size: 20px;
-  color: #fff;
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: #fff;
 }
 
 
 .footer-links {
-  list-style: none;
-  font-size: 14px;
+    list-style: none;
+    font-size: 14px;
 }
 
 .footer-link {
-  color: #F5F7FA;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 12px;
-  transition: color 0.3s;
+    color: #F5F7FA;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    transition: color 0.3s;
 }
 
 .footer-link:hover {
-  color: #4CAF4F;
+    color: #4CAF4F;
 }
 
 .newsletter-form {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-input::placeholder{
+input::placeholder {
     color: #D9DBE1;
 }
 
@@ -585,23 +629,78 @@ input::placeholder{
     padding: 10px;
     border: none;
     outline: none;
-    border-radius:  5px 0  0 5px ;
+    border-radius: 5px 0 0 5px;
     background-color: #515B60;
     color: #fff;
 }
 
 .newsletter-button {
-  padding: 7px 9px;;
-  border: none;
-  background-color: #515B60;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    padding: 7px 9px;
+    ;
+    border: none;
+    background-color: #515B60;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .newsletter-button:hover {
-  background-color: #4CAF4F;
+    background-color: #4CAF4F;
 }
 
 /* ******** Fim do Footer ******** */
+
+
+/* ******** Responsividade ******** */
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    /* Escondendo o menu principal no mobile */
+    .nav-menu {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        padding: 20px 0;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .service {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .action {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    /* Quando o menu é aberto */
+    .nav-menu.open {
+        display: flex;
+    }
+
+    /* Animação do botão hamburguer */
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
+
+/* ******** Fim da Responsividade ******** */
