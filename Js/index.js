@@ -1,7 +1,7 @@
 function toggleMenu() {
-    const nav = document.querySelector(".nav-menu");
+    const mobileMenu = document.querySelector(".mobile-menu");
     const menuToggle = document.querySelector(".menu-toggle");
 
-    nav.classList.toggle("open");
+    mobileMenu.classList.toggle("open");
     menuToggle.classList.toggle("active");
 }

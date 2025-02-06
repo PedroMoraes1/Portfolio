@@ -30,26 +30,30 @@ header {
     align-items: center;
     position: relative;
     justify-content: space-between;
+    padding: 0 120px;
+    z-index: 1000;
 }
 
 .logo {
     display: flex;
-    padding: 30px 0px 30px 105px;
+    padding: 30px 0px 30px 0px;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
     align-items: center;
 }
 
 .service {
     display: flex;
     gap: 50px;
-    align-items: center;
     padding: 30px 0px;
 }
 
 .action {
     display: flex;
     gap: 14px;
-    align-items: center;
-    padding-right: 120px;
 }
 
 .login {
@@ -70,16 +74,12 @@ header {
     cursor: pointer;
 }
 
-.nav-menu {
-    display: flex;
-}
-
 .menu-toggle {
     display: none;
     flex-direction: column;
     cursor: pointer;
     padding: 10px;
-    z-index: 100;
+    z-index: 1001;
 }
 
 .menu-toggle span {
@@ -88,6 +88,32 @@ header {
     background-color: #333;
     margin: 5px 0;
     transition: 0.3s;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    z-index: 999;
+}
+
+.mobile-menu .service p:hover {
+    background-color: #f2ededc7;
+    border-radius: 5px;
+    transition: background-color 0.4s ease;
+    padding: 5px 10px;
+}
+
+.mobile-menu.open {
+    display: flex;
 }
 
 
@@ -656,44 +682,41 @@ input::placeholder {
 
 /* ******** Responsividade ******** */
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+    /* Header */
+
+    header{
+        padding: 0 30px;
+    }
+
+    .nav-menu {
+        display: none; /* Esconde os menus normais */
+    }
+
     .menu-toggle {
         display: flex;
     }
 
-    /* Escondendo o menu principal no mobile */
-    .nav-menu {
-        position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        background: white;
-        flex-direction: column;
-        align-items: center;
-        display: none;
-        padding: 20px 0;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    .mobile-menu.open {
+        display: flex; /* Exibe o menu mobile */
     }
 
-    .service {
-        flex-direction: column;
-        gap: 20px;
-        padding: 0;
-    }
-
-    .action {
-        flex-direction: column;
-        padding: 20px 0;
-    }
-
-    /* Quando o menu é aberto */
-    .nav-menu.open {
+    .mobile-menu .service,
+    .mobile-menu .action {
         display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mobile-menu .action {
+        margin-top: 20px;
     }
 
     /* Animação do botão hamburguer */
     .menu-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
+        transform: rotate(45deg) translate(8px, 7px);
     }
 
     .menu-toggle.active span:nth-child(2) {
@@ -701,8 +724,33 @@ input::placeholder {
     }
 
     .menu-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
+        transform: rotate(-45deg) translate(7px, -13px);
     }
+
+    /* Fim Header */
+
+    /* ******** 1ª section ******** */
+    aside {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .image1{
+        padding-bottom: 0;
+        padding-top: 35px;
+    }
+
+    h1{
+        padding-top: 0px;
+    }
+
+    .registro{
+        margin-bottom: 35px;
+        margin-left: 1px;
+    }
+    
+    /* ******** Fim 1ª section ******** */
 }
 
 /* ******** Fim da Responsividade ******** */
