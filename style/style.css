@@ -714,9 +714,8 @@ input::placeholder {
         margin-top: 20px;
     }
 
-    /* Animação do botão hamburguer */
     .menu-toggle.active span:nth-child(1) {
-        transform: rotate(45deg) translate(8px, 7px);
+        transform: rotate(43deg) translate(8px, 7px);
     }
 
     .menu-toggle.active span:nth-child(2) {
@@ -724,7 +723,7 @@ input::placeholder {
     }
 
     .menu-toggle.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -13px);
+        transform: rotate(-41deg) translate(7px, -13px);
     }
 
     /* Fim Header */
@@ -734,6 +733,8 @@ input::placeholder {
         display: flex;
         flex-direction: column-reverse;
         gap: 20px;
+        width: 80%;
+        text-align: center;
     }
 
     .image1{
