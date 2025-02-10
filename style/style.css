@@ -683,14 +683,21 @@ input::placeholder {
 /* ******** Responsividade ******** */
 
 @media (max-width: 576px) {
+    body {
+        background-color: #fff;
+    }
+
+
+
     /* Header */
 
-    header{
+    header {
         padding: 0 30px;
     }
 
     .nav-menu {
-        display: none; /* Esconde os menus normais */
+        display: none;
+        /* Esconde os menus normais */
     }
 
     .menu-toggle {
@@ -698,7 +705,8 @@ input::placeholder {
     }
 
     .mobile-menu.open {
-        display: flex; /* Exibe o menu mobile */
+        display: flex;
+        /* Exibe o menu mobile */
     }
 
     .mobile-menu .service,
@@ -734,27 +742,86 @@ input::placeholder {
         flex-direction: column-reverse;
         justify-content: center;
         gap: 20px;
-        max-width: 80%;
         text-align: center;
+        margin: auto;
+        background-color: #F5F7FA;
+    }
+
+    .container{
+        max-width: 80%;
         margin: auto;
     }
 
-    .image1{
+    .image1 {
         padding-bottom: 0;
         padding-top: 35px;
         max-width: 100%;
     }
 
-    h1{
+    h1 {
         padding-top: 0px;
     }
 
-    .registro{
+    .registro {
         margin-bottom: 35px;
         margin-left: 1px;
     }
-    
+
     /* ******** Fim 1ª section ******** */
+
+    /* ******** 2ª section ******** */
+
+    .section2{
+        text-align: center;
+    }
+
+    .segundo{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .carousel-container {
+        overflow: hidden;
+        display: flex;   
+        max-width: 100%;
+    }
+
+    .marcas {
+        display: flex;
+        gap: 55px;
+        max-width: 100%;
+        white-space: nowrap;
+        animation: scrollCarousel 13s linear infinite;
+    }
+
+    .marcas::after {
+        content: "";
+        display: flex;
+    }
+
+    @keyframes scrollCarousel {
+        from { transform: translateX(0); }
+        to { transform: translateX(40%); }
+    }
+
+    /* ******** Fim 2ª section ******** */
+
+    /* ******** 3ª section ******** */
+
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: auto;
+    }
+
+    .card{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    /* ******** Fim 3ª section ******** */
 }
+
 
 /* ******** Fim da Responsividade ******** */
