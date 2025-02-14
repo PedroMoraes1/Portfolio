@@ -687,8 +687,6 @@ input::placeholder {
         background-color: #fff;
     }
 
-
-
     /* Header */
 
     header {
@@ -821,6 +819,33 @@ input::placeholder {
     }
 
     /* ******** Fim 3ª section ******** */
+
+    /* ******** 4ª section ******** */
+
+    .aside-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image2{
+        padding: 0;
+    }
+
+    .segundo-h2{
+        padding: 0;
+    }
+
+    .segunda-parte{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .learn{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* ******** Fim 4ª section ******** */
 }
 
 
