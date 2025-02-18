@@ -302,7 +302,6 @@ h1 {
     padding: 3px 0;
     width: 48px;
     height: 48px;
-    padding-top: 64px;
 }
 
 .segundo-h3 {
@@ -335,16 +334,13 @@ h1 {
     display: block;
     padding: 0 0 0 16px;
     height: 50px;
-    padding-top: 64px;
 }
 
 .mini-card {
     display: flex;
     width: 540px;
-    height: 260px;
     flex-wrap: wrap;
-    overflow: hidden;
-    gap: 50px;
+    padding-top: 60px;
 }
 
 /* ******** Fim da 5ª section ******** */
@@ -722,6 +718,7 @@ input::placeholder {
 
     .menu-toggle.active span:nth-child(1) {
         transform: rotate(43deg) translate(8px, 7px);
+        
     }
 
     .menu-toggle.active span:nth-child(2) {
@@ -745,7 +742,7 @@ input::placeholder {
         background-color: #F5F7FA;
     }
 
-    .container{
+    .container {
         max-width: 80%;
         margin: auto;
     }
@@ -769,18 +766,18 @@ input::placeholder {
 
     /* ******** 2ª section ******** */
 
-    .section2{
+    .section2 {
         text-align: center;
     }
 
-    .segundo{
+    .segundo {
         max-width: 80%;
         margin: auto;
     }
 
     .carousel-container {
         overflow: hidden;
-        display: flex;   
+        display: flex;
         max-width: 100%;
     }
 
@@ -798,8 +795,13 @@ input::placeholder {
     }
 
     @keyframes scrollCarousel {
-        from { transform: translateX(0); }
-        to { transform: translateX(40%); }
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(40%);
+        }
     }
 
     /* ******** Fim 2ª section ******** */
@@ -813,7 +815,7 @@ input::placeholder {
         margin: auto;
     }
 
-    .card{
+    .card {
         max-width: 80%;
         margin: auto;
     }
@@ -822,30 +824,210 @@ input::placeholder {
 
     /* ******** 4ª section ******** */
 
-    .aside-2{
+    .aside-2 {
         display: flex;
         flex-direction: column;
     }
 
-    .image2{
+    .image2 {
         padding: 0;
     }
 
-    .segundo-h2{
+    .segundo-h2 {
         padding: 0;
     }
 
-    .segunda-parte{
+    .segunda-parte {
         max-width: 80%;
         margin: auto;
     }
 
-    .learn{
+    .learn {
         margin-top: 30px;
         margin-bottom: 20px;
     }
 
     /* ******** Fim 4ª section ******** */
+
+    /* ******** 5ª section ******** */
+
+    .aside-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .terceiro-h2 {
+        max-width: 80%;
+        margin: auto;
+        padding-top: 35px;
+    }
+
+    .quinto {
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 0;
+    }
+
+    .mini-card {
+        display: flex;
+        max-width: 80%;
+        margin: auto;
+        gap: 30px;
+        padding: 45px 0 25px 0;
+    }
+
+    .informacoes {
+        padding: 0;
+    }
+
+    .imagem3 {
+        padding: 0 15px 0 0;
+    }
+
+    .segundo-h3 {
+        padding: 0;
+    }
+
+    .terceiro-h3 {
+        padding: 0;
+    }
+
+    .cards {
+        padding: 0 0 0 54px;
+    }
+
+    /* ******** Fim 5ª section ******** */
+
+    /* ******** 6ª section ******** */
+
+    .quarto-h2 {
+        padding: 0;
+    }
+
+    .image4 {
+        padding-bottom: 15px;
+    }
+
+    .segunda-parte-2 {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    /* ******** Fim 6ª section ******** */
+
+    /* ******** 7ª section ******** */
+
+    .aside-4 {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        gap: 0;
+    }
+
+    .setimo {
+        padding-top: 0;
+    }
+
+    .separacao {
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 22px;
+    }
+
+    .botao-parte-2 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .botao{
+        padding: 0;
+        margin: 0;
+    }
+
+    .icones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        max-width: 80%;
+    }
+
+    .icones img {
+        max-width: 50px;
+        height: auto;
+    }
+
+    /* ******** Fim 7ª section ******** */
+
+    /* ******** 8ª section ******** */
+
+    .quinto-h2{
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    .nono{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .cards-container-1{
+        max-width: 90%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    /* ******** Fim 8ª section ******** */
+
+    /* ******** 9ª section ******** */
+
+    .section5{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .sexto-h2{
+        font-size: 50px;
+    }
+    /* ******** Fim 9ª section ******** */
+
+    /* ******** Footer ******** */
+
+    footer{
+        display: block;
+    }
+
+    .parte2{
+        display: block;
+        padding-top: 0;
+    }
+
+    .footer-section{
+        max-width: 92%;
+        margin: auto;
+    }
+
+    .linha-footer{
+        display: flex;
+        max-width: 100%;
+        height: 2px;
+        background-color: #fff;
+        margin: 25px 0;
+    }
+
+    .footer-socials{
+        padding: 0;
+    }
+    
+    .h4-footer{
+        text-align: center;
+    }
+
+    .newsletter-form{
+        padding-bottom: 25px;
+    }
+    /* ******** Fim do footer ******** */
 }
 
 
