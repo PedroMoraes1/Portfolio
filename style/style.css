@@ -709,9 +709,29 @@ input::placeholder {
 
     /* ******** Fim do Footer ******** */
 }
-/* Fazer responsividade para telas de menores que 1163px */
-/* Fazer responsividade para telas de menores que 1163px */
-/* Fazer responsividade para telas de menores que 1163px */
+
+@media (max-width: 1187px) {
+
+    .icones{
+        max-width: 63%;
+    }
+
+    .botao{
+        width: 240px;
+        padding-top: 4px;
+    }
+
+    .img-icones{
+        width: 40px;
+        height: auto;
+    }
+
+    .separacao{
+        max-width: 93%;
+    }
+
+}
+/* Fazer responsividade para telas de menores que  */
 @media (max-width: 576px) {
     body {
         background-color: #fff;
