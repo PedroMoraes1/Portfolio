@@ -731,7 +731,37 @@ input::placeholder {
     }
 
 }
-/* Fazer responsividade para telas de menores que  */
+
+@media (max-width: 1162px) {
+
+    .marcas{
+        max-width: 90%;
+        gap: 100px;
+        margin: auto;
+
+    }
+
+    .separacao{
+        max-width: 93%;
+        margin-bottom: 20px;
+    }
+
+    .segunda-parte-3{
+        max-width: 60%;
+    }
+
+    .setimo{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 1016px) {
+    
+    .segunda-parte-3 {
+        max-width: 58%;
+    }
+}
+
 @media (max-width: 576px) {
     body {
         background-color: #fff;
